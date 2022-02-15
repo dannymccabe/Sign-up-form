@@ -6,8 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <article class="right-side">
+        <div class="top-block">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. <br> Sign up <em>now</em> to get started.</h2>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="container">
+            <h3>Let's do this!</h3>
+            <form action="#" method="get">
+                <label for="fname">FIRST NAME</label>
+                <input type="text" name="fname" id="fname" placeholder="John" required>
+                <label for="lname">LAST NAME</label>
+                <input type="text" name="lname" id="lname" placeholder="Doe" required>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="example@example.com" required>
+                <label for="tel">PHONE NUMBER</label>
+                <input type="tel" name="tel" id="tel" placeholder="0800-231-4569" required>
+                <label for="password">PASSWORD</label>
+                <input type="password" required>
+                <label for="conpassword">CONFIRM PASSWORD</label>
+                <input type="password" required>
+            </form>
+        </div>
+
+        <div class="bottom-block">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </article>
+
 </body>
 </html>
