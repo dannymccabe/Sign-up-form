@@ -5,10 +5,42 @@
     font-family: 'Outfit', sans-serif;
 }
 
+body{
+    display: flex;
+}
+
 .right-side{
     
 }
 
 .top-block{
+    margin-top: 140px;
     background-color: pink;
+    padding-left: 40px;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border-style: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: .5em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.transparent{
+    background-color: black;
+    opacity: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.background{
+    max-width: 400px;
+    height: 100vh;
+    overflow: hidden;
 }
