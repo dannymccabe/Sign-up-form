@@ -68,7 +68,7 @@ button{
     border-radius: .5em;
     cursor: pointer;
     font-weight: 600;
-    margin-top: 30px;
+    margin-top: 20px;
     transition: ease-in-out 0.3s;
 }
 
@@ -87,15 +87,46 @@ button:hover{
     padding-top: 10px;
 }
 
+
+
 form{
     display: flex;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     height: 250px;
     padding: 40px;
     padding-top: 15px;
+    width: 400px;
+}
+
+.form-right{
+    margin-left:100px;
+}
+
+input{
+    width: 240px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    box-shadow: rgba(0,0,0,0.6);
+}
+
+label{
+    display: inline-block;
 }
 
 .container h3{
     padding-left: 40px;
     padding-top: 10px;
+}
+
+.bottom-block a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
 }
