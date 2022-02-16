@@ -136,3 +136,7 @@ label{
 .error{
     border-color: red;
 }
+
+.error:valid{
+    border: 1px solid #ccc;
+}
