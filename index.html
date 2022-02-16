@@ -11,13 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="left-block">
+    <div class="left-side">
         <img src="img/backgroundimage.jpg" class="background">
         <div class="transparent">
             <img src="img/logo.png" class="logo">
         </div>
     </div>
-    <article class="right-side">
+    <div class="right-side">
         <div class="top-block">
             <h2>This is not a real online service! You know you need something<br> like this in your life to help you realise your deepest dreams. <br> Sign up <em>now</em> to get started.</h2>
             <p>You <em>know</em> you want to.</p>
@@ -26,18 +26,27 @@
         <div class="container">
             <h3>Let's do this!</h3>
             <form action="#" method="get">
-                <label for="fname">FIRST NAME</label>
-                <input type="text" name="fname" id="fname" placeholder="John" required>
-                <label for="lname">LAST NAME</label>
-                <input type="text" name="lname" id="lname" placeholder="Doe" required>
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" placeholder="example@example.com" required>
-                <label for="tel">PHONE NUMBER</label>
-                <input type="tel" name="tel" id="tel" placeholder="0800-231-4569" required>
-                <label for="password">PASSWORD</label>
-                <input type="password" required>
-                <label for="conpassword">CONFIRM PASSWORD</label>
-                <input type="password" required>
+                <div class="form-left">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" name="fname" id="fname" placeholder="John" required>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="example@example.com" required>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" required class="error">
+                </div>
+
+                <div class="form-right">
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" name="lname" id="lname" placeholder="Doe" required
+                    class="focus">
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" name="tel" id="tel" placeholder="0800-231-4569" required>
+                    <label for="conpassword">CONFIRM PASSWORD</label>
+                    <input type="password" required class="error">
+                </div>
+
+                
+                
             </form>
         </div>
 
@@ -45,7 +54,7 @@
             <button>Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
-    </article>
+    </div>
     
 
 </body>

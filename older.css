@@ -1,0 +1,90 @@
+:root{
+    --background-grey: rgb(245, 243, 243);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-block{
+    padding-top: 140px;
+    padding-left: 40px;
+    background-color: var(--background-grey)
+}
+
+.top-block h2{
+    margin-bottom: 40px;
+}
+
+.top-block p{
+    margin-bottom: 50px;
+}
+
+form{
+    display: flex;
+    font-size: 0.7rem;
+    height: 250px;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border-style: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: .5em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.bottom-block{
+    padding-left: 40px;
+    background-color: var(--background-grey)
+}
+
+.transparent{
+    background-color: black;
+    opacity: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+
+}
+
+.left-side{
+    position: relative;
+}
+.background{
+    max-width: 450px;
+    position: relative;
+}
+
+.container{
+    padding-left: 40px;
+}
+
+.logo{
+    width: 60px;
+}
+
+.form-right{
+    margin-left: 30px;
+}
